@@ -134,6 +134,8 @@ section p {
     max-width: 1000px; /* Limite la largeur à 900px */
     margin: 0 auto; /* Centre le contenu horizontalement */
     background: rgba(0, 0, 0, 0.5); /* Fond contrasté */
+    display: flex;
+    justify-content: space-between;
     padding: 2rem; /* Ajoute un espace interne */
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* Ombre pour un effet 3D */
 }
