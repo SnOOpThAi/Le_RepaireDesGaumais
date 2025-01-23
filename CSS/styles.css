@@ -123,6 +123,21 @@ section p {
     transform: translateY(-1px);
     box-shadow: 0 6px 15px rgba(255, 140, 0, 0.5);
 }
+/* Section About */
+#about img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+.propos-container {
+    max-width: 1000px; /* Limite la largeur à 900px */
+    margin: 0 auto; /* Centre le contenu horizontalement */
+    background: rgba(0, 0, 0, 0.5); /* Fond contrasté */
+    padding: 2rem; /* Ajoute un espace interne */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* Ombre pour un effet 3D */
+}
+
 
 /* Responsive Design */
 @media (max-width: 1024px) {
