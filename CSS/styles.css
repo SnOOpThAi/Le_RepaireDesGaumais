@@ -132,7 +132,7 @@ section p {
 }
 .propos-container {
     max-width: 1000px; /* Limite la largeur à 900px */
-    margin: 0 auto; /* Centre le contenu horizontalement */
+     
     background: rgba(0, 0, 0, 0.5); /* Fond contrasté */
     display: flex;
     justify-content: space-between;
