@@ -1,0 +1,9 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("image/dispo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    line-height: 1.6;
+}
