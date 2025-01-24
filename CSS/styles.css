@@ -92,13 +92,6 @@ section p {
     color: #FFF;
 }
 
-#home {
-    text-align: center;
-    background: url('restaurant_background.jpg') no-repeat center center/cover;
-    padding: 6rem 2rem;
-    position: relative;
-}
-
 #home::after {
     content: '';
     position: absolute;
