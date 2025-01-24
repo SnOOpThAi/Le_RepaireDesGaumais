@@ -20,7 +20,6 @@ body {
     display: flex; /* Utiliser Flexbox */
     flex-direction: column; /* Aligner les éléments verticalement */
     justify-content: center; /* Centrer verticalement */
-    align-items: center; /* Centrer horizontalement */
     min-height: 100vh; /* S'assurer que la hauteur du conteneur est au moins égale à celle de l'écran */
     margin: 0 auto;
     width: 100%; /* Permet d'adapter à l'écran */
