@@ -37,6 +37,14 @@ header {
     align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+.createur_logo {
+    width: 150px; /* Ajustez la taille selon vos besoins */
+    height: 150px; /* La même valeur que la largeur pour un cercle parfait */
+    border-radius: 50%; /* Rend l'image ronde */
+    object-fit: cover; /* Assure que l'image est bien cadrée dans le cercle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optionnel : ajoute une ombre pour un effet visuel */
+}
+
 
 .logo {
     font-size: 1.8rem;
