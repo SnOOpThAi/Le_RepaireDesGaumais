@@ -24,7 +24,7 @@ body {
     margin: 0 auto;
     width: 100%; /* Permet d'adapter à l'écran */
     max-width: 1200px; /* Optionnel : Limiter la largeur maximale du contenu */
-    padding: 1rem; /* Ajouter des marges internes pour respirer */
+    padding: 0 1rem; 
     box-sizing: border-box; /* Inclure padding et border dans les dimensions */
     text-align: center; /* Centrer le texte (optionnel) */
 }
@@ -53,6 +53,7 @@ header {
 }
 
 .nav-links {
+    align-items: center;
     list-style: none;
     display: flex;
     gap: 1.5rem;
@@ -101,7 +102,7 @@ section p {
 
 #home::after {
     content: '';
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -146,7 +147,7 @@ section p {
 }
 .propos-container {
     max-width: 1000px; /* Limite la largeur à 900px */
-     
+    margin: 0 auto;
     background: rgba(0, 0, 0, 0.5); /* Fond contrasté */
     display: flex;
     flex-direction: column;
