@@ -154,6 +154,7 @@ section p {
     justify-content: space-between;
     padding: 2rem; /* Ajoute un espace interne */
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* Ombre pour un effet 3D */
+    align-items: center;
 }
 
 
